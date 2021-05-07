@@ -1,0 +1,85 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open posbytz app",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 106931000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Opening posbytz app login",
+            "match": {
+              "location": "StepDefinition.testcase.opening_posbytz_app_login()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-06T15:40:05.120Z",
+        "line": 8,
+        "name": "Test cash sale",
+        "description": "",
+        "id": "test;test-cash-sale",
+        "after": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.testcase.embedScreenshotOnFail(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3230000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "complete one order with cash sale",
+            "match": {
+              "location": "StepDefinition.testcase.complete_one_order_with_cash_sale()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanitytest1"
+          },
+          {
+            "name": "@smoketest1"
+          }
+        ]
+      }
+    ],
+    "name": "Test",
+    "description": "",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/newfeature/win.feature",
+    "tags": [
+      {
+        "name": "@sanitytest1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
